@@ -1,0 +1,327 @@
+@font-face {
+    font-family: 'Wisdom-Script';
+    src: url(vendor/Wisdom-Script.otf);
+}
+
+@font-face {
+    font-family: 'DroidSerif-Regular';
+    src: url(vendor/DroidSerif-Regular.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Oxygen:400,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row:before,
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/BackgroundImage.jpg"), center/cover, no-repeat;
+    background-position: 50% 50%;
+}
+
+.burger {
+    display: none;
+}
+
+nav h1 {
+    position: absolute;
+    font-family: 'Wisdom-Script';
+    text-decoration: none;
+    color: #fed136;
+    padding: 10px 180px;
+    font-size: 26px;
+    line-height: 1.5;
+    font-weight: normal;
+}
+
+nav ul {
+    list-style-type: none;
+    float: right;
+    padding: 38px 120px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 10px;
+    width: 90px;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+}
+
+.slogan {
+    position: absolute;
+    text-align: center;
+    margin: 250px 150px;
+    padding: 0px;
+}
+
+.slogan h3 {
+    color: #fff;
+    text-transform: capitalize;
+    font-style: italic;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 40px;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.slogan h2 {
+    color: #fff;
+    font-size: 75px;
+    font-family: 'Oxygen', sans-serif;
+    text-transform: uppercase;
+    padding: 20px 0 45px 0;
+    margin: 0;
+}
+
+.headerButton {
+    background-color: #fed136;
+    width: 25%;
+    height: 65px;
+    border: #fed136;
+    border-radius: 3px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    transition: transform .5s;
+}
+
+.headerButton:hover {
+    color: #000;
+    transform: scale(1.2);
+}
+
+[class*="col-"] {
+    width: 100%;
+    float: left;
+}
+
+.col-lg-1 {
+    width: 8.33%;
+}
+
+.col-lg-2 {
+    width: 16.66%;
+}
+
+.col-lg-3 {
+    width: 25%;
+}
+
+.col-lg-4 {
+    width: 33.33%;
+}
+
+.col-lg-5 {
+    width: 41.66%;
+}
+
+.col-lg-6 {
+    width: 50%;
+}
+
+.col-lg-7 {
+    width: 58.33%;
+}
+
+.col-lg-8 {
+    width: 66.66%;
+}
+
+.col-lg-9 {
+    width: 75%;
+}
+
+.col-lg-10 {
+    width: 83.33%;
+}
+
+.col-lg-11 {
+    width: 91.66%;
+}
+
+.col-lg-12 {
+    width: 100%;
+}
+
+.services {
+    text-align: center;
+    padding: 80px 0;
+    margin: 0 auto;
+}
+
+.services h2 {
+    text-transform: uppercase;
+    color: #000;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.services h3 {
+    font-style: italic;
+    color: rgb(119, 119, 119);
+    font-family: 'DroidSerif-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.elements h1 {
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(34, 34, 34);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.elements p {
+    text-align: center;
+    color: rgb(119, 119, 119);
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+.elements {
+    padding: 80px 0 20px 0;
+}
+
+.fa-btn {
+    width: 70px;
+    height: 70px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(254, 209, 54);
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.elements i.fa {
+    font-size: 30px;
+    color: rgb(254, 209, 54);
+    text-align: center;
+    margin: 0;
+    padding: 15px 0;
+}
+
+.active:hover .fa-btn {
+    background-color: #000;
+    border-color: #000;
+}
+
+.portfolio {
+    background-color: rgb(247, 247, 247);
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio h2 {
+    font-size: 40px;
+    font-family: "Montserrat";
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.portfolio h3 {
+    font-size: 16px;
+    font-family: "DroidSerif";
+    color: rgb(119, 119, 119);
+    font-style: italic;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+    padding-bottom: 70px;
+}
+
+.gallery {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+}
+
+.gallery img {
+    margin: 0;
+    padding: 0;
+}
+
+.caption {
+    background-color: #fff;
+    width: 291px;
+    height: 80px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.gallery h4 {
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.gallery p {
+    font-size: 14px;
+    font-family: "DroidSerif";
+    color: rgb(115, 115, 115);
+    font-style: italic;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    margin: 0;
+}
