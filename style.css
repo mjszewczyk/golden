@@ -262,6 +262,7 @@ nav ul li a:hover {
     background-color: rgb(247, 247, 247);
     margin: 0;
     padding: 0;
+    height: 1150px;
 }
 
 .portfolio h2 {
@@ -286,15 +287,24 @@ nav ul li a:hover {
     padding-bottom: 70px;
 }
 
+.gallery-btn {
+    margin-bottom: 40px;
+}
+
 .gallery {
     margin: 0 auto;
     text-align: center;
     padding: 0;
 }
 
+.gallery:hover {
+    transform: scale(1.15);
+}
+
 .gallery img {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    display: block;
 }
 
 .caption {
@@ -322,6 +332,48 @@ nav ul li a:hover {
     font-style: italic;
     text-align: center;
     padding-top: 5px;
-    padding-bottom: 40px;
     margin: 0;
+}
+
+.about h2 {
+    font-size: 40px;
+    font-family: "Montserrat";
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0;
+    margin: 80px 0 10px 0;
+}
+
+.about h3 {
+    font-size: 16px;
+    font-family: "DroidSerif";
+    color: rgb(119, 119, 119);
+    font-style: italic;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.about h4 {
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about p {
+    font-size: 14px;
+    font-family: "RobotoSlab";
+    color: rgb(119, 119, 119);
+}
+
+.about1 h4,
+p {
+    width: 100%;
+    text-align: right;
+    margin: 50px auto;
+    padding: 0;
 }
