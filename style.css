@@ -185,6 +185,59 @@ nav ul li a:hover {
     width: 100%;
 }
 
+[class*="col-offset-"] {
+    width: 100%;
+    float: left;
+}
+
+.col-offset-1 {
+    margin-left: 8.33%;
+}
+
+.col-offset-2 {
+    margin-left: 16.66%;
+}
+
+.col-offset-3 {
+    margin-left: 25%;
+}
+
+.col-offset-4 {
+    margin-left: 33.33%;
+}
+
+.col-offset-5 {
+    margin-left: 41.66%;
+}
+
+.col-offset-6 {
+    margin-left: 50%;
+}
+
+.col-offset-7 {
+    margin-left: 58.33%;
+}
+
+.col-offset-8 {
+    margin-left: 66.66%;
+}
+
+.col-offset-9 {
+    margin-left: 75%;
+}
+
+.col-offset-10 {
+    margin-left: 83.33%;
+}
+
+.col-offset-11 {
+    margin-left: 91.66%;
+}
+
+.col-offset-12 {
+    margin-left: 100%;
+}
+
 .services {
     text-align: center;
     padding: 80px 0;
@@ -376,4 +429,34 @@ p {
     text-align: right;
     margin: 50px auto;
     padding: 0;
+}
+
+.team {
+    background-color: rgb(247, 247, 247);
+    margin: 0;
+    padding: 0;
+    height: 1150px;
+}
+
+.team h2 {
+    font-size: 40px;
+    font-family: "Montserrat";
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.team h3 {
+    font-size: 16px;
+    font-family: "DroidSerif";
+    color: rgb(119, 119, 119);
+    font-style: italic;
+    text-align: center;
+}
+
+.team-btn {
+    text-align: center;
+    padding: 80px 0;
+    margin: 0 auto;
 }
