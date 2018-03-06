@@ -475,11 +475,16 @@ nav ul li a:hover {
     text-transform: capitalize;
 }
 
-.timeline {
+.about .row:before {
+    content: "";
     background-color: rgb(241, 241, 241);
     width: 3px;
     height: 40px;
     margin: 0 auto;
+}
+
+.about .row:after {
+    content: "";
 }
 
 .team {
