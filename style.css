@@ -185,11 +185,6 @@ nav ul li a:hover {
     width: 100%;
 }
 
-[class*="col-offset-"] {
-    width: 100%;
-    float: left;
-}
-
 .col-offset-1 {
     margin-left: 8.33%;
 }
@@ -405,16 +400,8 @@ nav ul li a:hover {
     color: rgb(119, 119, 119);
     font-style: italic;
     text-align: center;
-    padding: 0;
+    padding-bottom: 30px;
     margin: 0;
-}
-
-.about h4 {
-    font-size: 18px;
-    font-family: "Montserrat";
-    color: rgb(34, 34, 34);
-    font-weight: bold;
-    text-transform: uppercase;
 }
 
 .about p {
@@ -423,20 +410,75 @@ nav ul li a:hover {
     color: rgb(119, 119, 119);
 }
 
+.about1,
+.about2,
+.about3,
+.about4,
+.about5 img {
+    padding-top: 40px;
+}
+
 .about1 h4,
-p {
+.about3 h4 {
     width: 100%;
     text-align: right;
-    margin: 50px auto;
-    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.about1 p,
+.about3 p {
+    font-size: 14px;
+    font-family: "RobotoSlab";
+    color: rgb(119, 119, 119);
+    text-align: right;
+    margin-top: 10px;
+    padding: 10px 20px 0 0;
 }
 
 .about2 h4,
-p {
+.about4 h4 {
     width: 100%;
     text-align: left;
-    margin: 50px auto;
-    padding: 0;
+    padding: 0px;
+    margin: 0;
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.about2 p,
+.about4 p {
+    font-size: 14px;
+    font-family: "RobotoSlab";
+    color: rgb(119, 119, 119);
+    text-align: left;
+    margin-top: 10px;
+    padding: 10px 20px 0 0;
+}
+
+.capitalize {
+    width: 100%;
+    text-align: right;
+    padding: 0px;
+    margin: 0;
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.timeline {
+    background-color: rgb(241, 241, 241);
+    width: 3px;
+    height: 40px;
 }
 
 .team {
