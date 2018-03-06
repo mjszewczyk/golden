@@ -475,7 +475,7 @@ nav ul li a:hover {
     text-transform: capitalize;
 }
 
-.about .row:before {
+.line:before {
     content: "";
     background-color: rgb(241, 241, 241);
     width: 3px;
@@ -483,7 +483,7 @@ nav ul li a:hover {
     margin: 0 auto;
 }
 
-.about .row:after {
+.line:after {
     content: "";
 }
 
