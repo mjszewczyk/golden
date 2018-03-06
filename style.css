@@ -431,10 +431,16 @@ p {
     padding: 0;
 }
 
+.about2 h4,
+p {
+    width: 100%;
+    text-align: left;
+    margin: 50px auto;
+    padding: 0;
+}
+
 .team {
     background-color: rgb(247, 247, 247);
-    margin: 0;
-    padding: 0;
     height: 1150px;
 }
 
@@ -445,6 +451,7 @@ p {
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
+    margin-top: 80px;
 }
 
 .team h3 {
@@ -459,4 +466,13 @@ p {
     text-align: center;
     padding: 80px 0;
     margin: 0 auto;
+}
+
+.employee img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    background-size: cover;
+    background-position: 50% 50%;
 }
