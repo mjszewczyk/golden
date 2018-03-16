@@ -542,6 +542,10 @@ nav ul li a:hover {
     margin: 0 auto;
 }
 
+.icons {
+    text-align: center;
+}
+
 .icon-btn {
     width: 40px;
     height: 40px;
@@ -587,4 +591,10 @@ footer p {
     background-color: #fff;
     cursor: pointer;
     text-align: center;
+    font-size: 10px;
+}
+
+.buttons {
+    text-align: center;
+    margin: 0;
 }
