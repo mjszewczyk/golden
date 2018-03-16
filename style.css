@@ -485,7 +485,6 @@ nav ul li a:hover {
 
 .team {
     background-color: rgb(247, 247, 247);
-    height: 800px;
 }
 
 .team h2 {
@@ -509,14 +508,16 @@ nav ul li a:hover {
     margin: 0;
 }
 
-.team p {
+.paragraph {
     font-size: 16px;
     font-family: "RobotoSlab";
     color: rgb(119, 119, 119);
     text-align: center;
+    padding: 30px;
+    padding-bottom: 100px;
 }
 
-.people h4 {
+.employee h4 {
     text-align: center;
     font-size: 16px;
     font-family: "Montserrat";
@@ -526,14 +527,14 @@ nav ul li a:hover {
     padding-top: 20px;
 }
 
-.people p {
+.employee p {
     text-align: center;
     font-size: 16px;
     font-family: "Montserrat";
     color: #777;
     font-weight: bold;
-    padding-top: 10px;
     margin: 0;
+    padding-top: 10px;
 }
 
 .employee img {
@@ -544,6 +545,7 @@ nav ul li a:hover {
 
 .icons {
     text-align: center;
+    padding-top: 20px;
 }
 
 .icon-btn {
@@ -556,10 +558,15 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
+.icon-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
 button i.fa {
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
-    margin: 0 auto;
+    font-weight: bold;
 }
 
 .logos-btn {
@@ -575,25 +582,118 @@ button i.fa {
     padding: 0;
 }
 
+.contact {
+    width: 100%;
+    background: url(images/mapimage.png) right no-repeat #222;
+}
+
+.contact h2 {
+    font-size: 40px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 80px 0 10px 0;
+}
+
+.contact h3 {
+    font-size: 16px;
+    font-family: "DroidSerif";
+    color: rgb(119, 119, 119);
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+#name,
+#mail,
+#subject {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(204, 204, 204);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    width: 459px;
+    height: 50px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(187, 187, 187);
+    text-transform: uppercase;
+    margin-top: 28px;
+    margin-left: 120px;
+}
+
+#msg {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(204, 204, 204);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    width: 459px;
+    height: 206px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(187, 187, 187);
+    text-transform: uppercase;
+    margin-top: 28px;
+    padding: 10px;
+}
+
+.button-mg {
+    padding-bottom: 50px;
+}
+
+.contact button {
+    width: 240px;
+    height: 66px;
+    border-radius: 3px;
+    border: 2px solid rgb(254, 209, 54);
+    background-color: rgb(254, 209, 54);
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 50px auto;
+    display: block;
+    padding: 0;
+}
+
 footer p {
     font-size: 14px;
     font-family: "Montserrat";
     color: rgb(85, 85, 85);
     text-align: left;
+    margin: 0;
+    padding-top: 35px;
+    font-weight: bold;
 }
 
 .sm {
     width: 40px;
     height: 40px;
-    border: 2px solid #000;
+    border: 2px solid rgb(34, 34, 34);
     border-radius: 50%;
-    color: #000;
-    background-color: #fff;
+    color: #fff;
+    background-color: rgb(34, 34, 34);
     cursor: pointer;
     text-align: center;
 }
 
+.sm .fa {
+    font-size: 20px;
+}
+
+.sm:hover {
+    background-color: #fff;
+    color: #000;
+}
+
 .buttons {
     text-align: center;
-    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
