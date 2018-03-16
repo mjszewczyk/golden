@@ -588,3 +588,7 @@ footer p {
     cursor: pointer;
     text-align: center;
 }
+
+.buttons {
+    text-align: center;
+}
