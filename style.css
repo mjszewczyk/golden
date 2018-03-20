@@ -43,7 +43,34 @@ header {
 }
 
 .burger {
-    display: none;
+    position: absolute;
+    float: right;
+    top: 5px;
+    right: 15px;
+    width: 60px;
+    height: 40px;
+    z-index: 10;
+}
+
+.burger div {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background-color: #fed136;
+}
+
+.burger div:nth-child(1) {
+    top: 0;
+}
+
+.burger div:nth-child(2),
+.burger div:nth-child(3) {
+    top: calc(50% - 4px);
+}
+
+.burger div:nth-child(4) {
+    bottom: 0;
 }
 
 nav h1 {
@@ -310,7 +337,6 @@ nav ul li a:hover {
     background-color: rgb(247, 247, 247);
     margin: 0;
     padding: 0;
-    height: 1150px;
 }
 
 .portfolio h2 {
@@ -360,7 +386,17 @@ nav ul li a:hover {
     width: 291px;
     height: 80px;
     margin: 0 auto;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+.break {
+    background-color: #fff;
+    width: 291px;
+    height: 80px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    padding: 0;
 }
 
 .gallery h4 {
@@ -571,14 +607,14 @@ button i.fa {
 
 .logos-btn {
     width: 80%;
-    height: 200px;
     margin: 0 auto;
 }
 
 .logos-btn img {
     height: 60%;
     width: 60%;
-    margin-top: 80px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     padding: 0;
 }
 
@@ -662,6 +698,11 @@ button i.fa {
     padding: 0;
 }
 
+.contact button:hover {
+    transform: scale(1.15);
+    color: #000;
+}
+
 footer p {
     font-size: 14px;
     font-family: "Montserrat";
@@ -696,4 +737,269 @@ footer p {
     text-align: center;
     padding-bottom: 20px;
     padding-top: 20px;
+}
+
+@media(max-width: 767px) {
+    .col-s-1 {
+        width: 8.33%;
+    }
+    .col-s-2 {
+        width: 16.66%;
+    }
+    .col-s-3 {
+        width: 25%;
+    }
+    .col-s-4 {
+        width: 33.33%;
+    }
+    .col-s-5 {
+        width: 41.66%;
+    }
+    .col-s-6 {
+        width: 50%;
+    }
+    .col-s-7 {
+        width: 58.33%;
+    }
+    .col-s-8 {
+        width: 66.66%;
+    }
+    .col-s-9 {
+        width: 75%;
+    }
+    .col-s-10 {
+        width: 83.33%;
+    }
+    .col-s-11 {
+        width: 91.66%;
+    }
+    .col-s-12 {
+        width: 100%;
+    }
+    header {
+        height: 600px;
+    }
+    nav {
+        text-align: center;
+        width: 100%;
+    }
+    nav ul {
+        float: none;
+        font-size: 16px;
+        text-align: center;
+        margin: 0;
+        padding-top: 80px;
+    }
+    nav ul li {
+        display: block;
+        padding-top: 20px;
+    }
+    nav ul li a {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    nav h1 {
+        margin: 0;
+        padding: 10px 50px;
+    }
+    nav ul li a:hover {
+        font-weight: bold;
+    }
+    .slogan {
+        margin: 0;
+        padding: 0;
+    }
+    .slogan h3 {
+        font-size: 20px;
+    }
+    .slogan h2 {
+        font-size: 30px;
+        padding-left: 10px;
+    }
+    .headerButton:hover {
+        transform: scale(1);
+    }
+    .services {
+        padding: 40px 0;
+    }
+    .services h2 {
+        font-size: 30px;
+    }
+    .services h3 {
+        font-size: 14px;
+        padding-bottom: 30px;
+    }
+    .elements {
+        padding: 20px 0 20px 0;
+    }
+    .portfolio h2 {
+        font-size: 30px;
+        padding-top: 50px;
+    }
+    .portfolio h3 {
+        font-size: 13px;
+        padding: 10px 0 30px 0;
+    }
+    .gallery:hover {
+        transform: scale(1);
+    }
+    .caption {
+        padding-bottom: 0;
+        margin-bottom: 30px;
+    }
+    .break {
+        padding-bottom: 0;
+        margin-bottom: 30px;
+    }
+    .about h2 {
+        font-size: 30px;
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+    .about h3 {
+        font-size: 12px;
+        padding-top: 10px;
+        padding-bottom: 40px;
+        margin: 0;
+    }
+    .about p {
+        font-size: 12px;
+        font-family: "RobotoSlab";
+        color: rgb(119, 119, 119);
+    }
+    .about1 h4,
+    .about3 h4 {
+        font-size: 14px;
+        text-align: center;
+        padding: 0;
+    }
+    .about1 p,
+    .about3 p {
+        font-size: 12px;
+        padding: 5px 10px 0 0;
+        text-align: center;
+    }
+    .logos-btn img {
+        height: 60%;
+        width: 60%;
+        margin: 60px 0 60px 50px;
+        padding: 0;
+    }
+    .contact h2 {
+        font-size: 30px;
+        padding: 40px 0 10px 0;
+    }
+    .contact h3 {
+        font-size: 16px;
+        color: #fff;
+        padding-bottom: 20px;
+    }
+    #name,
+    #mail,
+    #subject {
+        width: 250px;
+        height: 50px;
+        font-size: 14px;
+        margin-left: 50px;
+        padding-left: 10px;
+    }
+    #msg {
+        width: 250px;
+        height: 200px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    .button-mg {
+        padding-bottom: 30px;
+    }
+    .contact button:hover {
+        transform: scale(1);
+        color: #000;
+    }
+    footer p {
+        font-size: 12px;
+        padding-top: 25px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 1199px) {
+    .col-m-1 {
+        width: 8.33%;
+    }
+    .col-m-2 {
+        width: 16.66%;
+    }
+    .col-m-3 {
+        width: 25%;
+    }
+    .col-m-4 {
+        width: 33.33%;
+    }
+    .col-m-5 {
+        width: 41.66%;
+    }
+    .col-m-6 {
+        width: 50%;
+    }
+    .col-m-7 {
+        width: 58.33%;
+    }
+    .col-m-8 {
+        width: 66.66%;
+    }
+    .col-m-9 {
+        width: 75%;
+    }
+    .col-m-10 {
+        width: 83.33%;
+    }
+    .col-m-11 {
+        width: 91.66%;
+    }
+    .col-m-12 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1199px) {
+    .col-lg-1 {
+        width: 8.33%;
+    }
+    .col-lg-2 {
+        width: 16.66%;
+    }
+    .col-lg-3 {
+        width: 25%;
+    }
+    .col-lg-4 {
+        width: 33.33%;
+    }
+    .col-lg-5 {
+        width: 41.66%;
+    }
+    .col-lg-6 {
+        width: 50%;
+    }
+    .col-lg-7 {
+        width: 58.33%;
+    }
+    .col-lg-8 {
+        width: 66.66%;
+    }
+    .col-lg-9 {
+        width: 75%;
+    }
+    .col-lg-10 {
+        width: 83.33%;
+    }
+    .col-lg-11 {
+        width: 91.66%;
+    }
+    .col-lg-12 {
+        width: 100%;
+    }
+    .burger {
+        display: none;
+    }
 }
