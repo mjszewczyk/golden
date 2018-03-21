@@ -212,51 +212,51 @@ nav ul li a:hover {
     width: 100%;
 }
 
-.col-offset-1 {
+.col-offset-lg-1 {
     margin-left: 8.33%;
 }
 
-.col-offset-2 {
+.col-offset-lg-2 {
     margin-left: 16.66%;
 }
 
-.col-offset-3 {
+.col-offset-lg-3 {
     margin-left: 25%;
 }
 
-.col-offset-4 {
+.col-offset-lg-4 {
     margin-left: 33.33%;
 }
 
-.col-offset-5 {
+.col-offset-lg-5 {
     margin-left: 41.66%;
 }
 
-.col-offset-6 {
+.col-offset-lg-6 {
     margin-left: 50%;
 }
 
-.col-offset-7 {
+.col-offset-lg-7 {
     margin-left: 58.33%;
 }
 
-.col-offset-8 {
+.col-offset-lg-8 {
     margin-left: 66.66%;
 }
 
-.col-offset-9 {
+.col-offset-lg-9 {
     margin-left: 75%;
 }
 
-.col-offset-10 {
+.col-offset-lg-10 {
     margin-left: 83.33%;
 }
 
-.col-offset-11 {
+.col-offset-lg-11 {
     margin-left: 91.66%;
 }
 
-.col-offset-12 {
+.col-offset-lg-12 {
     margin-left: 100%;
 }
 
@@ -466,6 +466,7 @@ nav ul li a:hover {
     text-align: right;
     display: block;
     margin: 10px auto;
+    padding-right: 20px;
 }
 
 .about2 h4,
@@ -512,8 +513,8 @@ nav ul li a:hover {
     width: 2px;
     height: 80px;
     display: block;
-    margin: auto;
-    padding: 0
+    margin: 0 49%;
+    padding: 0;
 }
 
 .line:after {
@@ -777,7 +778,10 @@ footer p {
     .col-s-12 {
         width: 100%;
     }
-    .col-offsets--1 {
+    .col-offset-s-0 {
+        margin-left: 0%;
+    }
+    .col-offset-s-1 {
         margin-left: 8.33%;
     }
     .col-offset-s-2 {
@@ -908,18 +912,39 @@ footer p {
     .about3 h4 {
         font-size: 14px;
         text-align: center;
-        padding: 0;
+        padding: 5px 5px 0 5px;
+    }
+    .about2 p,
+    .about4 p {
+        font-size: 14px;
+        text-align: center;
+        padding: 5px 5px 0 5px;
+    }
+    .about2 h4,
+    .about4 h4 {
+        font-size: 14px;
+        text-align: center;
+        padding: 5px 5px 0 5px;
     }
     .about1 img,
-    .about3 img {
+    .about2 img,
+    .about3 img,
+    .about4 img,
+    .about5 img {
         display: block;
         margin: auto;
+        padding: 10px 5px 0 10px;
     }
     .about1 p,
     .about3 p {
         font-size: 12px;
         padding: 5px 10px 0 5px;
         text-align: center;
+    }
+    .line:before {
+        content: "";
+        margin: auto;
+        display: none;
     }
     .logos-btn img {
         height: 60%;
