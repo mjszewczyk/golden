@@ -430,6 +430,16 @@ nav ul li a:hover {
     margin: 80px 0 10px 0;
 }
 
+.about1 img,
+.about2 img,
+.about3 img,
+.about4 img,
+.about5 img {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
 .about h3 {
     font-size: 16px;
     font-family: "DroidSerif";
@@ -513,7 +523,7 @@ nav ul li a:hover {
     width: 2px;
     height: 80px;
     display: block;
-    margin: 0 49%;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -905,8 +915,6 @@ footer p {
     }
     .about p {
         font-size: 12px;
-        font-family: "RobotoSlab";
-        color: rgb(119, 119, 119);
     }
     .about1 h4,
     .about3 h4 {
@@ -916,7 +924,7 @@ footer p {
     }
     .about2 p,
     .about4 p {
-        font-size: 14px;
+        font-size: 12px;
         text-align: center;
         padding: 5px 5px 0 5px;
     }
@@ -933,13 +941,35 @@ footer p {
     .about5 img {
         display: block;
         margin: auto;
-        padding: 10px 5px 0 10px;
+        padding: 10px 5px 10px 10px;
+    }
+    .about5 img {
+        margin-bottom: 30px;
     }
     .about1 p,
     .about3 p {
         font-size: 12px;
-        padding: 5px 10px 0 5px;
+        padding: 5px 10px 10px 5px;
         text-align: center;
+    }
+    .team h2 {
+        font-size: 25px;
+        display: block;
+        margin: 0 auto;
+        padding-top: 60px;
+    }
+    .team h3 {
+        font-size: 14px;
+        display: block;
+        margin: 0 auto;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .paragraph {
+        padding-bottom: 50px;
+    }
+    .employee img {
+        padding-top: 30px;
     }
     .line:before {
         content: "";
@@ -947,9 +977,10 @@ footer p {
         display: none;
     }
     .logos-btn img {
-        height: 60%;
-        width: 60%;
-        margin: 60px 0 60px 50px;
+        height: 40%;
+        width: 40%;
+        display: block;
+        margin: 20px auto;
         padding: 0;
     }
     .contact h2 {
@@ -986,16 +1017,18 @@ footer p {
         display: block;
         padding: 10px 5px;
     }
-    .contact button:hover {
+    .contact button {
         transform: scale(1);
         color: #000;
-        width: 80%;
-        margin: auto;
+        width: 40%;
+        margin: 20px auto;
         display: block;
     }
     footer p {
+        display: block;
+        margin: auto;
         font-size: 12px;
-        padding-top: 25px;
+        padding-left: 10px;
     }
 }
 
@@ -1035,6 +1068,229 @@ footer p {
     }
     .col-m-12 {
         width: 100%;
+    }
+    .col-offset-m-0 {
+        margin-left: 0%;
+    }
+    .col-offset-m-1 {
+        margin-left: 8.33%;
+    }
+    .col-offset-m-2 {
+        margin-left: 16.66%;
+    }
+    .col-offset-m-3 {
+        margin-left: 25%;
+    }
+    .col-offset-m-4 {
+        margin-left: 33.33%;
+    }
+    .col-offset-m-5 {
+        margin-left: 41.66%;
+    }
+    .col-offset-m-6 {
+        margin-left: 50%;
+    }
+    .col-offset-m-7 {
+        margin-left: 58.33%;
+    }
+    .col-offset-m-8 {
+        margin-left: 66.66%;
+    }
+    .col-offset-m-9 {
+        margin-left: 75%;
+    }
+    .col-offset-m-10 {
+        margin-left: 83.33%;
+    }
+    .col-offset-m-11 {
+        margin-left: 91.66%;
+    }
+    .col-offset-m-12 {
+        margin-left: 100%;
+    }
+    .burger {
+        top: 15px;
+        right: 30px;
+    }
+    nav {
+        text-align: center;
+        width: 100%;
+    }
+    nav ul {
+        font-size: 14px;
+        float: none;
+        font-size: 16px;
+        text-align: center;
+        margin: 0;
+        padding-top: 80px;
+    }
+    nav ul li {
+        display: block;
+        padding-top: 20px;
+    }
+    nav ul li a {
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        width: 100px;
+    }
+    nav ul li a:hover {
+        font-weight: 0;
+    }
+    .slogan {
+        width: 100%;
+        margin: auto;
+    }
+    .slogan h3 {
+        font-size: 26px;
+    }
+    .slogan h2 {
+        font-size: 34px;
+    }
+    .headerButton:hover {
+        transform: scale(1);
+        color: #fff;
+    }
+    .gallery img {
+        width: 80%;
+    }
+    .gallery:hover {
+        transform: scale(1);
+    }
+    .gallery-btn {
+        margin-bottom: 10px;
+    }
+    .caption {
+        width: 233px;
+        height: 80px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        padding: 0;
+    }
+    .break {
+        background-color: #fff;
+        width: 233px;
+        height: 80px;
+        margin: 0 auto;
+        margin-bottom: 100px;
+        padding: 0;
+    }
+    .about h2 {
+        font-size: 30px;
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+    .about h3 {
+        font-size: 12px;
+        padding-top: 10px;
+        padding-bottom: 40px;
+        margin: 0;
+    }
+    .about p {
+        font-size: 12px;
+    }
+    .about1 h4,
+    .about3 h4 {
+        font-size: 14px;
+        text-align: right;
+        padding: 10px 5px 0 10px;
+    }
+    .about2 p,
+    .about4 p {
+        font-size: 14px;
+        text-align: left;
+        padding: 10px 5px 0 35px;
+    }
+    .about2 h4,
+    .about4 h4 {
+        font-size: 14px;
+        text-align: left;
+        padding: 10px 5px 0 35px;
+    }
+    .about1 img,
+    .about2 img,
+    .about3 img,
+    .about4 img,
+    .about5 img {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .about5 img {
+        margin-bottom: 30px;
+    }
+    .about1 p,
+    .about3 p {
+        font-size: 12px;
+        padding: 5px 10px 10px 5px;
+        text-align: right;
+    }
+    .line:before {
+        content: "";
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .logos-btn img {
+        height: 40%;
+        width: 40%;
+        display: block;
+        margin: 20px auto;
+        padding: 0;
+    }
+    .contact h2 {
+        font-size: 30px;
+        padding: 40px 0 10px 0;
+    }
+    .contact h3 {
+        font-size: 16px;
+        color: #fff;
+        padding-bottom: 20px;
+    }
+    .logos-btn img {
+        height: 70%;
+        width: 70%;
+        display: block;
+        margin: 20px auto;
+        padding: 0;
+    }
+    .fieldset {
+        width: 100%;
+        margin: auto;
+        display: block;
+    }
+    #name,
+    #mail,
+    #subject {
+        width: 250px;
+        height: 60px;
+        font-size: 14px;
+        width: 80%;
+        margin: 0 0 0 60px;
+        padding: 10px 5px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    #msg {
+        width: 250px;
+        height: 200px;
+        width: 80%;
+        margin: 0 0 0 20px;
+        display: block;
+        padding: 10px 5px;
+    }
+    .contact button {
+        transform: scale(1);
+        color: #000;
+        width: 40%;
+        margin: 20px auto;
+        display: block;
+    }
+    footer p {
+        padding-left: 10px;
+        margin: auto;
+        padding-top: 25px;
     }
 }
 
